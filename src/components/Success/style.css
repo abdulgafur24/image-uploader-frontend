@@ -1,0 +1,41 @@
+.Success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Success__icon {
+  width: 35px;
+  height: 35px;
+}
+.Success__title {
+  margin-bottom: 25px;
+}
+
+.Success__image {
+  width: 338px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.Success__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 7px;
+  background: #f6f8fb;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.Success__text {
+  max-width: 240px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Success__button {
+  margin: 2px;
+}

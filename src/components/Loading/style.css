@@ -1,0 +1,40 @@
+.Loading__title {
+  margin-bottom: 30px;
+}
+
+.Loading__progress {
+  background: #f2f2f2;
+  border-radius: 8px;
+  width: 340.71px;
+  height: 6px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.Loading__progress-bar {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100px;
+  height: 6px;
+  background: #2f80ed;
+  border-radius: 8px;
+  transition: all 0.4s;
+  animation: animation 2.5s ease infinite;
+}
+
+@keyframes animation {
+  0% {
+    left: -35%;
+    right: 100%;
+  }
+  60% {
+    left: 100%;
+    right: -90%;
+  }
+  100% {
+    left: 100%;
+    right: -90%;
+  }
+}
